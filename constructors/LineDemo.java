@@ -3,7 +3,7 @@ package constructors;
 public class LineDemo {
     public static void main(String[] args) {
 
-        double x = 10, x1 = 15.5, y = 5, y1 = 17;
+        double x = 7, x1 = 2.5, y = 4, y1 = 9;
 
         Line line = new Line(x, x1, y, y1);
         System.out.println(line.lengh());

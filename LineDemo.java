@@ -1,13 +1,12 @@
+package constructors;
+
 public class LineDemo {
     public static void main(String[] args) {
-        double x1 = 2.0;
-        double x2 = 4.1;
-        double y1 = 1.5;
-        double y2 = 2.6;
 
-        Line line = new Line(x1, x2, y1, y2);
+        double x = 10, x1 = 15.5, y = 5, y1 = 17;
 
-        System.out.println("line's length is " + line.length());
-        System.out.println("line's midlePoint is " + line.midpoint().tostring());
+        Line line = new Line(x, x1, y, y1);
+        System.out.println(line.lengh());
+        System.out.println("Midpoint - " + line.midPoint().toString());
     }
 }
